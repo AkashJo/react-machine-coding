@@ -1,0 +1,72 @@
+/* .input-form {
+    display: flex;
+    width: 90%;
+    position: relative;
+    align-items: center;
+}
+
+.input-box {
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    transition: 0.2s;
+}
+
+.input-submit {
+    position : absolute;
+    width: 50px;
+    height: 50px;
+    margin:12px;
+    border-radius: 50px;
+    right: 0px;
+    background-color: rgb(168, 168, 23);
+    color: black;
+    transition: 0.2s all;
+}
+
+.input-submit:hover{
+    background-color: rgb(242, 242, 7);
+}
+
+.input-submit:active {
+    transform: scale(0.8);
+    box-shadow: 0 0 5px black;
+} */
+
+.todo-single-container {
+    display: flex; /*sab side by side aane chaiye*/
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+}
+
+.todo-single-text {
+    flex : 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.todo-icon {
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    flex : 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+@media (max-width : 700px) {
+    .input {
+        width: 95%;
+    }
+
+    .todo-single-container  {
+        width: 100%;
+    }
+} 
