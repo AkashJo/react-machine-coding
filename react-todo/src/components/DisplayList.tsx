@@ -9,8 +9,6 @@ type Props = {
 
 const DisplayList : React.FC<Props> = (props : Props) => {
 
-
-    
     const {todos,setTodoList} = props;
 
     console.log("Akkkkkkk",todos);
